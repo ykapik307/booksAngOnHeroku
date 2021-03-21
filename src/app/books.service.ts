@@ -9,7 +9,7 @@ import { Books } from './books';
 })
 export class BooksService {
 
-  private baseUrl="https://rest-api-kp.herokuapp.com/books";
+  private baseUrl="https://mycorsproxy307.herokuapp.com/rest-api-kp.herokuapp.com/books";
   // "";
   constructor(private httpClient:HttpClient) { }
   getBookList():Observable<Books[]>{
