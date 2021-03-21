@@ -1,6 +1,24 @@
 .tab{
     border: 2px solid black;
+    max-width: 600px;
 }
 .butt{
-    margin: 0px 10px;
+    width: 80px;
+    margin: 4px 10px;
+}
+.op{
+    text-align: start;
+    vertical-align: middle;
+}
+@media only screen and (max-width: 600px) {
+    .cc{
+       max-width: 100px;
+        
+    }
+    .butt{
+        margin: 4px 4px;
+    }
+    .bc{
+        max-width: 140px;
+    }
 }
